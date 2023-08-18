@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: rgb(173, 179, 241);
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.meet-people {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
